@@ -1,6 +1,6 @@
 {
   "name": "nancy-bill",
-  "version": "2.1.0",
+  "version": "2.1.2",
   "description": "Sistem Manajemen ISP Terintegrasi dengan WhatsApp Gateway untuk GenieACS, Mikrotik PPPoE, dan Hotspot Management",
   "main": "app.js",
   "scripts": {
@@ -12,7 +12,9 @@
     "check-whatsapp-version": "node scripts/check-whatsapp-version.js",
     "test-whatsapp-connection": "node scripts/test-whatsapp-connection.js",
     "prepare-for-github": "node scripts/prepare-for-github.js",
-    "run-sql-migrations": "node scripts/run-sql-migrations.js"
+    "run-sql-migrations": "node scripts/run-sql-migrations.js",
+    "check-database-structure": "node scripts/check-database-structure.js",
+    "test-admin-pages": "node scripts/test-admin-pages.js"
   },
   "dependencies": {
     "@hapi/boom": "^10.0.1",
@@ -64,7 +66,7 @@
     "nodejs",
     "express"
   ],
-  "author": "NANCY Team",
+  "author": "NANCY.NET Team",
   "license": "ISC",
   "repository": {
     "type": "git",
