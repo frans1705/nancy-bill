@@ -2,18 +2,18 @@
 <div align="center">
   <img src="public/img/logo.png" alt="Gembok Bill Logo" width="120" height="120">
   
-  # Gembok Bill
+  # Nancy Bill
   **Integrated ISP Management System**
   
   [![Node.js](https://img.shields.io/badge/Node.js-18.x-green?style=for-the-badge&logo=node.js)](https://nodejs.org/)
   [![License](https://img.shields.io/badge/license-ISC-blue?style=for-the-badge)](LICENSE)
-  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](https://github.com/alijayanet/gembok-bill/pulls)
-  [![GitHub Stars](https://img.shields.io/github/stars/alijayanet/gembok-bill?style=for-the-badge)](https://github.com/alijayanet/gembok-bill/stargazers)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](https://github.com/frans1705/nancy-bill/pulls)
+  [![GitHub Stars](https://img.shields.io/github/stars/frans1705/nancy-bill?style=for-the-badge)](https://github.com/frans1705/nancy-bill/stargazers)
 </div>
 
-## 🌐 Tentang Gembok Bill
+## 🌐 Tentang Nancy Bill
 
-**Gembok Bill** adalah sistem manajemen ISP terintegrasi yang dirancang untuk mengelola billing, layanan pelanggan, dan operasi jaringan melalui integrasi WhatsApp. Sistem ini menyediakan solusi end-to-end untuk manajemen penyedia layanan internet dengan fitur-fitur canggih.
+**Nancy Bill** adalah sistem manajemen ISP terintegrasi yang dirancang untuk mengelola billing, layanan pelanggan, dan operasi jaringan melalui integrasi WhatsApp. Sistem ini menyediakan solusi end-to-end untuk manajemen penyedia layanan internet dengan fitur-fitur canggih.
 
 ### 🚀 Fitur Utama
 
@@ -48,10 +48,10 @@
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/alijayanet/gembok-bill.git
+git clone https://github.com/frans1705/nancy-bill.git
 ```
 ```bash
-cd gembok-bill
+cd nancy-bill
 ```
 
 ### 2. Instal Dependensi
@@ -88,7 +88,7 @@ npm run dev
 ## 📁 Struktur Project
 
 ```
-gembok-bill/
+nancy-bill/
 ├── app.js                  # Entry point aplikasi
 ├── package.json            # Dependensi dan script
 ├── config/                 # File konfigurasi
@@ -131,7 +131,7 @@ Kami menyambut kontribusi dari komunitas! Berikut cara berkontribusi:
 
 Jika Anda memerlukan bantuan:
 
-- Buat **issue** di [GitHub Issues](https://github.com/alijayanet/gembok-bill/issues)
+- Buat **issue** di [GitHub Issues](https://github.com/frans1705/nancy-bill/issues)
 - Hubungi tim pengembang melalui email
 - Bergabung dengan komunitas Discord (jika tersedia)
 
@@ -141,7 +141,7 @@ Project ini dilisensikan di bawah lisensi ISC - lihat file [LICENSE](LICENSE) un
 
 ## 👥 Tim Pengembang
 
-- **ALIJAYA Team** - [@alijayanet](https://github.com/alijayanet)
+- **Nancy Team** - [@frans1705](https://github.com/frans1705)
 
 ## 🙏 Ucapan Terima Kasih
 
@@ -153,7 +153,7 @@ Project ini dilisensikan di bawah lisensi ISC - lihat file [LICENSE](LICENSE) un
   
   💻 Dikembangkan dengan ❤️ untuk komunitas ISP Indonesia
   
-  [Laporkan Bug](https://github.com/alijayanet/gembok-bill/issues) · [Minta Fitur](https://github.com/alijayanet/gembok-bill/issues) · [Dokumentasi](DEPLOYMENT_GUIDE.md)
+  [Laporkan Bug](https://github.com/frans1705/nancy-bill/issues) · [Minta Fitur](https://github.com/frans1705/nancy-bill/issues) · [Dokumentasi](DEPLOYMENT_GUIDE.md)
   
 
 </div>
