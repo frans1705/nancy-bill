@@ -1,8 +1,8 @@
-<!-- Improved modern README with better structure and visuals -->
+<!-- Improved modern README with vibrant colors and enhanced structure -->
 <div align="center">
-  <img src="public/img/logo.png" alt="Nancy Bill Logo" width="120" height="120">
+  <img src="public/img/logo.png" alt="Gembok Bill Logo" width="120" height="120">
   
-  # Nancy Bill
+  # Gembok Bill
   **Integrated ISP Management System**
   
   [![Node.js](https://img.shields.io/badge/Node.js-18.x-green?style=for-the-badge&logo=node.js)](https://nodejs.org/)
@@ -11,9 +11,9 @@
   [![GitHub Stars](https://img.shields.io/github/stars/alijayanet/gembok-bill?style=for-the-badge)](https://github.com/alijayanet/gembok-bill/stargazers)
 </div>
 
-## 🌐 Tentang Nancy Bill
+## 🌐 Tentang Gembok Bill
 
-**Nancy Bill** adalah sistem manajemen ISP terintegrasi yang dirancang untuk mengelola billing, layanan pelanggan, dan operasi jaringan melalui integrasi WhatsApp. Sistem ini menyediakan solusi end-to-end untuk manajemen penyedia layanan internet dengan fitur-fitur canggih.
+**Gembok Bill** adalah sistem manajemen ISP terintegrasi yang dirancang untuk mengelola billing, layanan pelanggan, dan operasi jaringan melalui integrasi WhatsApp. Sistem ini menyediakan solusi end-to-end untuk manajemen penyedia layanan internet dengan fitur-fitur canggih.
 
 ### 🚀 Fitur Utama
 
@@ -48,10 +48,10 @@
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/frans1705/nancy-bill.git
+git clone https://github.com/alijayanet/gembok-bill.git
 ```
 ```bash
-cd nancy-bill
+cd gembok-bill
 ```
 
 ### 2. Instal Dependensi
@@ -62,6 +62,17 @@ npm install
 ### 3. Inisialisasi Database
 ```bash
 npm run setup
+```
+
+### 4. Jalankan Migrasi Database (Penting untuk Server Baru)
+Untuk memastikan semua tabel dan kolom yang diperlukan ada di database, jalankan perintah migrasi:
+
+```bash
+# Jalankan semua migrasi database
+node scripts/run-all-migrations.js
+
+# Verifikasi struktur database
+node scripts/verify-production-database.js
 ```
 
 ### 5. Jalankan Aplikasi
@@ -77,7 +88,7 @@ npm run dev
 ## 📁 Struktur Project
 
 ```
-nancy-bill/
+gembok-bill/
 ├── app.js                  # Entry point aplikasi
 ├── package.json            # Dependensi dan script
 ├── config/                 # File konfigurasi
@@ -98,6 +109,7 @@ nancy-bill/
 | [DATA_README.md](DATA_README.md) | Informasi tentang manajemen data |
 | [WHATSAPP_SETUP.md](WHATSAPP_SETUP.md) | Konfigurasi WhatsApp Gateway |
 | [WHATSAPP_FIX_SUMMARY.md](WHATSAPP_FIX_SUMMARY.md) | Ringkasan perbaikan WhatsApp |
+| [DATABASE_MIGRATION_SUMMARY.md](DATABASE_MIGRATION_SUMMARY.md) | Ringkasan migrasi database |
 
 ## 🎯 Cara Kontribusi
 
@@ -119,7 +131,7 @@ Kami menyambut kontribusi dari komunitas! Berikut cara berkontribusi:
 
 Jika Anda memerlukan bantuan:
 
-- Buat **issue** di [GitHub Issues](https://github.com/frans1705/nancy-bill/issues)
+- Buat **issue** di [GitHub Issues](https://github.com/alijayanet/gembok-bill/issues)
 - Hubungi tim pengembang melalui email
 - Bergabung dengan komunitas Discord (jika tersedia)
 
@@ -129,7 +141,7 @@ Project ini dilisensikan di bawah lisensi ISC - lihat file [LICENSE](LICENSE) un
 
 ## 👥 Tim Pengembang
 
-- **NANCY.NET Team** - [@nancy.net](https://github.com/frans1705)
+- **ALIJAYA Team** - [@alijayanet](https://github.com/alijayanet)
 
 ## 🙏 Ucapan Terima Kasih
 
@@ -141,7 +153,7 @@ Project ini dilisensikan di bawah lisensi ISC - lihat file [LICENSE](LICENSE) un
   
   💻 Dikembangkan dengan ❤️ untuk komunitas ISP Indonesia
   
-  [Laporkan Bug](https://github.com/frans1705/nancy-bill/issues) · [Minta Fitur](https://github.com/frans1705/nancy-bill/issues) · [Dokumentasi](DEPLOYMENT_GUIDE.md)
+  [Laporkan Bug](https://github.com/alijayanet/gembok-bill/issues) · [Minta Fitur](https://github.com/alijayanet/gembok-bill/issues) · [Dokumentasi](DEPLOYMENT_GUIDE.md)
   
 
 </div>
