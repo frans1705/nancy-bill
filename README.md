@@ -80,6 +80,11 @@ node scripts/verify-production-database.js
 node scripts/add-collector-password-field.js
 ```
 
+```bash
+# Hapus Data Invoice Lama
+node scripts/reset-invoice-data.js
+```
+
 ### 5. Jalankan Aplikasi
 ```bash
 # Untuk production
