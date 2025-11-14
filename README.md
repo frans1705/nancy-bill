@@ -75,6 +75,10 @@ node scripts/run-all-migrations.js
 node scripts/verify-production-database.js
 ```
 
+# Tambahkan Field Password
+node scripts/add-collector-password-field.js
+```
+
 ### 5. Jalankan Aplikasi
 ```bash
 # Untuk production
