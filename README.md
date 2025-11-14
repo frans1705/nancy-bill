@@ -75,6 +75,7 @@ node scripts/run-all-migrations.js
 node scripts/verify-production-database.js
 ```
 
+```bash
 # Tambahkan Field Password
 node scripts/add-collector-password-field.js
 ```
